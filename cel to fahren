@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+	int c;
+	float f;
+	printf("enter celsius value:");
+	scanf("%d",&c);
+	f=((9*c)+160)/5;
+	printf("fahrenheit value:%f",f);
+}
